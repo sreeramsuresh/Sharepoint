@@ -1,0 +1,42 @@
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+}
+.nav1 img {
+  margin-left: 40px;
+}
+
+.text-white {
+  position: relative;
+  text-decoration: none;
+  color: #000000;
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  margin-left: 50px;
+  position: relative;
+}
+
+.text-white::after {
+  content: "";
+  opacity: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #ffe600;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all ease-in-out 0.2s;
+}
+
+.text-white:hover::after {
+  opacity: 1;
+}

@@ -1,0 +1,14 @@
+/* .main > img {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+
+.main > img:after {
+  background-image: center center / cover no-repeat fixed;
+  content: "";
+  position: absolute;
+  inset: 0px;
+  opacity: 1;
+  z-index: -1;
+} */

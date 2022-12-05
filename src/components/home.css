@@ -1,0 +1,25 @@
+.home-image img {
+  width: 100VW;
+  height: 100VH;
+  position: relative;
+  /* object-fit: fit-content;
+  background-size: cover; */
+  background-repeat: no-repeat;
+}
+
+
+
+.home-data {
+  position: absolute;
+  color: #ffe006;
+  margin: 0 auto;
+  left: 45px;
+  right: 0;
+  top: 35%;
+
+}
+.home-data p {
+  color: #ffffff;
+  margin-top: 3rem;
+  font-size: 15px;
+}
